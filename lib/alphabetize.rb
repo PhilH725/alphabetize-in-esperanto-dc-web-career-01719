@@ -7,6 +7,9 @@ def alphabetize(arr)
     arr.each do |string|
       if string[0] == letter
         alpha_array << string
-        arr.
-  
+        arr.delete(string)
+      end
+    end
+  end
+  alpha_array
 end
