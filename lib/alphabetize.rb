@@ -1,6 +1,7 @@
 def alphabetize(arr)
   # code here
   a = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
-  puts a
+  
+  arr.sort_by
   
 end
