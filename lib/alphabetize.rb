@@ -2,6 +2,6 @@ def alphabetize(arr)
   # code here
   a = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
   
-  arr.sort_by { |word| word.length}
+  arr.sort_by { |word| word.sort}
   
 end
