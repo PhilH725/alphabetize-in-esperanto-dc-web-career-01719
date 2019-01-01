@@ -3,6 +3,6 @@ def alphabetize(arr)
   
   abc = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  arr.sort_by { |abc| a<=> b}
+  arr.sort_by { abc.index}
   
 end
