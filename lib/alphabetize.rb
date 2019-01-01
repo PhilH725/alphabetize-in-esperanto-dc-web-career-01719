@@ -1,8 +1,8 @@
 def alphabetize(arr)
   # code here
-  a = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
-  ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  arr.sort_by { |ALPHABET| a<=> b}
+  abc = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  
+  arr.sort_by { |abc| a<=> b}
   
 end
