@@ -1,8 +1,8 @@
 def alphabetize(arr)
   # code here
   
-  abc = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  arr.sort_by { abc.index}
+  arr.sort_by { |a| a }
   
 end
