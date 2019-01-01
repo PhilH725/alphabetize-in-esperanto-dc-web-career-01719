@@ -11,5 +11,6 @@ def alphabetize(arr)
       end
     end
   end
+  puts alpha_array
   alpha_array
 end
