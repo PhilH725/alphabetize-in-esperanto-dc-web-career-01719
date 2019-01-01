@@ -2,6 +2,11 @@ def alphabetize(arr)
   # code here
   a = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split(//)
   
-  arr.sort_by { |word| word.sort}
+  alpha_array = []
+  a.each do |letter|
+    arr.each do |string|
+      if string[0] == letter
+        alpha_array << string
+        arr.
   
 end
